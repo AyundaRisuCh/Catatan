@@ -134,6 +134,7 @@ body {
     background-color: #ff4655;
 }
 
+/* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -144,21 +145,26 @@ body {
   .navbar-container {
     flex-direction: column;
     align-items: flex-start;
+    width: 100%; /* Ensure container takes full width */
   }
 
   .nav-menu {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
+    margin-top: 10px; /* Add some space below logo */
   }
 
   .nav-item {
     margin: 5px 0;
+    width: 100%; /* Full width for menu items */
   }
 
   .nav-link {
     font-size: 14px;
     padding: 8px 12px;
+    width: 100%; /* Full width for links */
+    text-align: left; /* Align text to left */
   }
 
   .nav-extra {
@@ -168,8 +174,10 @@ body {
   }
 
   .logo {
-    position: static;
+    position: static; /* Remove absolute positioning */
     margin-bottom: 10px;
+    width: 100%; /* Full width for logo container */
+    text-align: center; /* Center logo */
   }
 
   .logo img {
@@ -177,13 +185,31 @@ body {
   }
 
   .dropdown-menu {
-    position: relative;
+    position: relative; /* Change to relative for mobile */
     width: 100%;
     box-shadow: none;
     border: 1px solid #444;
+    display: none; /* Keep hidden by default, controlled by JS */
   }
 
   .dropdown-menu li a {
     padding-left: 20px;
+  }
+
+  /* Toggle for mobile menu */
+  .navbar-toggle {
+    display: block; /* Show toggle button */
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .nav-menu.active {
+    display: flex; /* Show menu when active */
   }
 }
