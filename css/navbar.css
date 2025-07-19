@@ -1,4 +1,3 @@
-@media (max-width: 768px) {
 /* Styling Navbar */
 body {
     margin: 0;
@@ -133,5 +132,4 @@ body {
 
 .contact-link:hover {
     background-color: #ff4655;
-}
 }
