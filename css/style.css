@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+h1 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.judul {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4.5em;
+    text-align: center;
+    animation: fadeIn 1.5s ease forwards;
+}
+.sub {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+}

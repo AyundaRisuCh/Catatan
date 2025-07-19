@@ -1,0 +1,74 @@
+@media (max-width: 768px) {
+.full-box {
+      width: 100%;
+      max-width: 100%;
+      background-color: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-top: 2px solid rgba(255, 255, 255, 0.2);
+      border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+      padding: 40px 20px;
+      color: white;
+      opacity: 0;
+      animation: fadeIn 2s ease forwards;
+}
+
+.full-box h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .full-box p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto 20px;
+      color: #e2e8f0;
+      text-align: justify;
+      text-indent: 2em;
+    }
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&display=swap');
+
+ol {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 2.5em;
+  list-style-type: lower-alpha;
+  list-style-position: outside;
+  color: #e2e8f0;
+}
+
+ol li {
+  font-family: 'Press Start 2P', cursive; /* Font keren seperti sub-judul */
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  position: relative;
+}
+
+ol li p {
+  font-family: 'Roboto', sans-serif; /* Font berbeda untuk paragraf */
+  font-weight: 80;
+  font-size: 0.7em;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+}
