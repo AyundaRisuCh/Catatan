@@ -1,0 +1,15 @@
+:root{
+    --background: url('https://images3.alphacoders.com/139/thumb-1920-1398229.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NiODk3MDBlLTM2ZTItNDNiZS1hMTYzLTU4ZjA5ZGY1NTExZlwvZDg5Zng4ci1iOWZiNDdlOC1jMmZiLTRiNjItOGJkNC05NDhlMDE1Nzk1ZGMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.gC07VheL4HFIchfS7gfFGDfo0nZPyfYv3kLu6Yy5EpA');
+    --activetext-colour: white;
+    --activetext-colour: black;
+
+    --primary1-colour: cyan;
+    --primary2-colour: rgba(0,255,255,0.5);
+    --primary3-colour: rgba(0,100,100,0.6);
+    --primary4-colour: rgba(0,100,100,0.4);
+
+    --secondary1-colour: rgba(50,50,50,0.3);
+    --secondary2-colour: rgba(100,100,100,0.5);
+    --secondary3-colour: rgba(0,0,0,0.6);
+    --secondary4-colour: rgba(0,0,0,0.3);
+}
